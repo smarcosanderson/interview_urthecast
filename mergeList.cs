@@ -1,6 +1,9 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
 class MainProgram
 {
-
     private static List<string> merge(List<string> source, List<string> toAdd, List<string> toDel)
     {
         Dictionary<string, int> dictHelper = new Dictionary<string, int>();
