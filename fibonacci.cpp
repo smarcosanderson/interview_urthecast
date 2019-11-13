@@ -1,5 +1,6 @@
 #include <iostream>
 
+//By just using the golden ratio we can find the nth fibonacci number in O(1) time complexity
 //this function is designed for n >= 0
 int fibonacci(int n)
 {
